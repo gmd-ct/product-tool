@@ -1,0 +1,93 @@
+{
+  "tools": [
+    {
+      "id": "productplan",
+      "name": "ProductPlan",
+      "website": "https://www.productplan.com",
+      "tagline": "The #1 Roadmap Software",
+      "category": "roadmapping",
+      "founded": 2013,
+      "headquarters": "Santa Barbara, CA",
+      "company_size": "51-200",
+      "focus": "Visual roadmap communication",
+      "primary_strength": "Simplicity and ease of use",
+      "primary_weakness": "Limited features beyond roadmaps"
+    },
+    {
+      "id": "productboard",
+      "name": "Productboard",
+      "website": "https://www.productboard.com",
+      "tagline": "Customer-centric product management",
+      "category": "comprehensive",
+      "founded": 2014,
+      "headquarters": "San Francisco, CA",
+      "company_size": "500-1000",
+      "focus": "Feedback-driven product development",
+      "primary_strength": "Customer feedback management",
+      "primary_weakness": "Can be expensive at scale"
+    },
+    {
+      "id": "aha",
+      "name": "Aha!",
+      "website": "https://www.aha.io",
+      "tagline": "The World's #1 Product Development Software",
+      "category": "comprehensive",
+      "founded": 2013,
+      "headquarters": "Remote-first",
+      "company_size": "200-500",
+      "focus": "Comprehensive product management suite",
+      "primary_strength": "Most comprehensive all-in-one platform",
+      "primary_weakness": "Steep learning curve, highest cost"
+    },
+    {
+      "id": "airfocus",
+      "name": "Airfocus",
+      "website": "https://airfocus.com",
+      "tagline": "The world's first modular product management tool",
+      "category": "modular",
+      "founded": 2017,
+      "headquarters": "Hamburg, Germany",
+      "company_size": "51-100",
+      "focus": "Modular and customizable product management",
+      "primary_strength": "Flexibility and Priority Poker",
+      "primary_weakness": "Learning curve from flexibility",
+      "acquired_by": "Lucid Software",
+      "acquisition_date": "2025-04"
+    },
+    {
+      "id": "tempo",
+      "name": "Tempo Strategic Roadmaps",
+      "website": "https://www.tempo.io",
+      "tagline": "Roadmapping Software for Jira",
+      "category": "atlassian_ecosystem",
+      "founded": 2009,
+      "headquarters": "Boston, MA",
+      "company_size": "200-500",
+      "focus": "Atlassian ecosystem integration",
+      "primary_strength": "Deep Jira integration, PPM suite",
+      "primary_weakness": "Jira dependency, enterprise focus",
+      "formerly_known_as": "Roadmunk"
+    },
+    {
+      "id": "chatprd",
+      "name": "ChatPRD",
+      "website": "https://www.chatprd.ai",
+      "tagline": "The #1 AI Platform for Product Managers",
+      "category": "ai_native",
+      "founded": 2023,
+      "headquarters": "Remote",
+      "company_size": "1-10",
+      "focus": "AI-powered product documentation",
+      "primary_strength": "AI PRD generation, speed",
+      "primary_weakness": "Documentation only, no roadmaps",
+      "founder": "Claire Vo"
+    }
+  ],
+  "categories": {
+    "roadmapping": "Focused roadmap creation and visualization",
+    "comprehensive": "All-in-one PM platform with multiple capabilities",
+    "modular": "Customizable and flexible PM platform",
+    "atlassian_ecosystem": "Deep integration with Jira/Atlassian",
+    "ai_native": "Built from ground up with AI at core"
+  }
+}

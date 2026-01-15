@@ -1,0 +1,204 @@
+{
+  "pricing": [
+    {
+      "tool_id": "productplan",
+      "currency": "USD",
+      "billing_cycle": "monthly",
+      "plans": [
+        {
+          "name": "Basic",
+          "price_per_user": 39,
+          "min_users": 1,
+          "key_features": ["1 roadmap", "Basic features", "Standard support"]
+        },
+        {
+          "name": "Professional",
+          "price_per_user": 69,
+          "min_users": 1,
+          "key_features": ["Unlimited roadmaps", "Integrations", "Priority support"]
+        },
+        {
+          "name": "Enterprise",
+          "price_per_user": null,
+          "custom_pricing": true,
+          "key_features": ["SSO/SAML", "Advanced security", "Dedicated support"]
+        }
+      ],
+      "free_trial_days": 14,
+      "free_tier": false
+    },
+    {
+      "tool_id": "productboard",
+      "currency": "USD",
+      "billing_cycle": "monthly",
+      "plans": [
+        {
+          "name": "Essentials",
+          "price_per_user": 19,
+          "min_users": 1,
+          "key_features": ["Basic roadmapping", "Feedback collection", "Limited features"]
+        },
+        {
+          "name": "Pro",
+          "price_per_user": 59,
+          "min_users": 1,
+          "key_features": ["Advanced insights", "Integrations", "Priority support"]
+        },
+        {
+          "name": "Scale",
+          "price_per_user": null,
+          "custom_pricing": true,
+          "key_features": ["Enterprise features", "Advanced governance", "Dedicated support"]
+        },
+        {
+          "name": "Enterprise",
+          "price_per_user": null,
+          "custom_pricing": true,
+          "key_features": ["Full enterprise", "Custom terms", "SLA"]
+        }
+      ],
+      "free_trial_days": 15,
+      "free_tier": true,
+      "free_tier_name": "Starter"
+    },
+    {
+      "tool_id": "aha",
+      "currency": "USD",
+      "billing_cycle": "monthly",
+      "plans": [
+        {
+          "name": "Roadmaps",
+          "price_per_user": 59,
+          "min_users": 1,
+          "key_features": ["Roadmapping", "Strategy", "Basic integrations"]
+        },
+        {
+          "name": "Roadmaps + Ideas",
+          "price_per_user": 99,
+          "min_users": 1,
+          "key_features": ["Everything in Roadmaps", "Ideas portal", "Feedback management"]
+        },
+        {
+          "name": "Enterprise",
+          "price_per_user": 149,
+          "min_users": 1,
+          "key_features": ["All features", "On-premise option", "Enterprise security"]
+        }
+      ],
+      "add_ons": [
+        {
+          "name": "Ideas",
+          "price_per_user": 39,
+          "description": "Feedback portal and idea management"
+        },
+        {
+          "name": "Develop",
+          "price_per_user": 9,
+          "description": "Development tracking"
+        }
+      ],
+      "free_trial_days": 30,
+      "free_tier": false
+    },
+    {
+      "tool_id": "airfocus",
+      "currency": "USD",
+      "billing_cycle": "monthly",
+      "plans": [
+        {
+          "name": "Core",
+          "price_per_user": 59,
+          "min_users": 1,
+          "key_features": ["Roadmapping", "Prioritization", "Basic integrations"]
+        },
+        {
+          "name": "Scale",
+          "price_per_user": null,
+          "custom_pricing": true,
+          "key_features": ["API access", "Advanced integrations", "Governance"]
+        },
+        {
+          "name": "Enterprise",
+          "price_per_user": null,
+          "custom_pricing": true,
+          "key_features": ["SSO", "Advanced security", "Custom terms"]
+        }
+      ],
+      "free_trial_days": 14,
+      "free_tier": false
+    },
+    {
+      "tool_id": "tempo",
+      "currency": "USD",
+      "billing_cycle": "monthly",
+      "plans": [
+        {
+          "name": "Starter",
+          "price_per_user": 19,
+          "min_users": 1,
+          "max_users": 1,
+          "key_features": ["Unlimited roadmaps", "Basic features", "3 reviewers"]
+        },
+        {
+          "name": "Business",
+          "price_per_user": 49,
+          "min_users": 5,
+          "key_features": ["Portfolio roadmaps", "API access", "Integrations"]
+        },
+        {
+          "name": "Professional",
+          "price_per_user": 99,
+          "min_users": null,
+          "key_features": ["SSO", "Custom training", "Dedicated support"]
+        },
+        {
+          "name": "Enterprise",
+          "price_per_user": null,
+          "custom_pricing": true,
+          "key_features": ["Private cloud", "Unlimited reviewers", "Custom terms"]
+        }
+      ],
+      "free_trial_days": 14,
+      "free_tier": false
+    },
+    {
+      "tool_id": "chatprd",
+      "currency": "USD",
+      "billing_cycle": "monthly",
+      "plans": [
+        {
+          "name": "Free",
+          "price_per_user": 0,
+          "max_documents": 3,
+          "key_features": ["3 documents", "Basic AI", "Explore platform"]
+        },
+        {
+          "name": "Basic",
+          "price_per_user": 8,
+          "annual_price": 60,
+          "key_features": ["Unlimited documents", "Standard AI", "Basic features"]
+        },
+        {
+          "name": "Pro",
+          "price_per_user": 15,
+          "annual_price": 120,
+          "key_features": ["Premium AI models", "Custom templates", "Notion integration"]
+        },
+        {
+          "name": "Team",
+          "price_per_user": 24,
+          "annual_price": 204,
+          "key_features": ["Shared workspaces", "Team collaboration", "Centralized billing"]
+        },
+        {
+          "name": "Enterprise",
+          "price_per_user": null,
+          "custom_pricing": true,
+          "key_features": ["SOC 2", "SSO", "Data controls", "Dedicated support"]
+        }
+      ],
+      "free_trial_documents": 3,
+      "free_tier": true
+    }
+  ]
+}

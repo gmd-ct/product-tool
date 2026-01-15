@@ -1,0 +1,457 @@
+{
+  "integration_categories": [
+    {"id": "development", "name": "Development Tools"},
+    {"id": "communication", "name": "Communication"},
+    {"id": "crm", "name": "CRM & Sales"},
+    {"id": "support", "name": "Customer Support"},
+    {"id": "analytics", "name": "Analytics"},
+    {"id": "documentation", "name": "Documentation"},
+    {"id": "project_management", "name": "Project Management"},
+    {"id": "design", "name": "Design Tools"},
+    {"id": "automation", "name": "Automation"},
+    {"id": "prototype", "name": "Prototyping"}
+  ],
+  "integrations": {
+    "development": [
+      {"id": "jira_cloud", "name": "Jira Cloud"},
+      {"id": "jira_server", "name": "Jira Server/Data Center"},
+      {"id": "azure_devops", "name": "Azure DevOps"},
+      {"id": "github", "name": "GitHub"},
+      {"id": "gitlab", "name": "GitLab"},
+      {"id": "linear", "name": "Linear"},
+      {"id": "shortcut", "name": "Shortcut"}
+    ],
+    "communication": [
+      {"id": "slack", "name": "Slack"},
+      {"id": "ms_teams", "name": "Microsoft Teams"},
+      {"id": "email", "name": "Email"}
+    ],
+    "crm": [
+      {"id": "salesforce", "name": "Salesforce"},
+      {"id": "hubspot", "name": "HubSpot"},
+      {"id": "pipedrive", "name": "Pipedrive"},
+      {"id": "gong", "name": "Gong"}
+    ],
+    "support": [
+      {"id": "intercom", "name": "Intercom"},
+      {"id": "zendesk", "name": "Zendesk"},
+      {"id": "freshdesk", "name": "Freshdesk"}
+    ],
+    "analytics": [
+      {"id": "amplitude", "name": "Amplitude"},
+      {"id": "mixpanel", "name": "Mixpanel"},
+      {"id": "segment", "name": "Segment"},
+      {"id": "heap", "name": "Heap"},
+      {"id": "fullstory", "name": "Fullstory"}
+    ],
+    "documentation": [
+      {"id": "confluence", "name": "Confluence"},
+      {"id": "notion", "name": "Notion"},
+      {"id": "google_drive", "name": "Google Drive"}
+    ],
+    "project_management": [
+      {"id": "asana", "name": "Asana"},
+      {"id": "trello", "name": "Trello"},
+      {"id": "monday", "name": "Monday.com"},
+      {"id": "basecamp", "name": "Basecamp"},
+      {"id": "wrike", "name": "Wrike"}
+    ],
+    "design": [
+      {"id": "figma", "name": "Figma"},
+      {"id": "miro", "name": "Miro"},
+      {"id": "invision", "name": "InVision"}
+    ],
+    "automation": [
+      {"id": "zapier", "name": "Zapier"},
+      {"id": "make", "name": "Make (Integromat)"},
+      {"id": "webhooks", "name": "Webhooks"}
+    ],
+    "prototype": [
+      {"id": "v0", "name": "v0 (Vercel)"},
+      {"id": "bolt", "name": "bolt.new"},
+      {"id": "lovable", "name": "Lovable"}
+    ]
+  },
+  "tool_integrations": {
+    "productplan": {
+      "development": {
+        "jira_cloud": "basic",
+        "jira_server": false,
+        "azure_devops": false,
+        "github": false,
+        "gitlab": false,
+        "linear": false,
+        "shortcut": false
+      },
+      "communication": {
+        "slack": true,
+        "ms_teams": false,
+        "email": true
+      },
+      "crm": {
+        "salesforce": false,
+        "hubspot": false,
+        "pipedrive": false,
+        "gong": false
+      },
+      "support": {
+        "intercom": false,
+        "zendesk": false,
+        "freshdesk": false
+      },
+      "analytics": {
+        "amplitude": false,
+        "mixpanel": false,
+        "segment": false,
+        "heap": false,
+        "fullstory": false
+      },
+      "documentation": {
+        "confluence": false,
+        "notion": false,
+        "google_drive": false
+      },
+      "project_management": {
+        "asana": false,
+        "trello": true,
+        "monday": false,
+        "basecamp": false,
+        "wrike": false
+      },
+      "design": {
+        "figma": false,
+        "miro": false,
+        "invision": false
+      },
+      "automation": {
+        "zapier": true,
+        "make": false,
+        "webhooks": false
+      },
+      "prototype": {
+        "v0": false,
+        "bolt": false,
+        "lovable": false
+      },
+      "total_native": 5,
+      "has_api": "enterprise"
+    },
+    "productboard": {
+      "development": {
+        "jira_cloud": "two_way",
+        "jira_server": true,
+        "azure_devops": "two_way",
+        "github": true,
+        "gitlab": true,
+        "linear": false,
+        "shortcut": true
+      },
+      "communication": {
+        "slack": true,
+        "ms_teams": true,
+        "email": true
+      },
+      "crm": {
+        "salesforce": true,
+        "hubspot": true,
+        "pipedrive": false,
+        "gong": true
+      },
+      "support": {
+        "intercom": true,
+        "zendesk": true,
+        "freshdesk": false
+      },
+      "analytics": {
+        "amplitude": true,
+        "mixpanel": true,
+        "segment": true,
+        "heap": true,
+        "fullstory": true
+      },
+      "documentation": {
+        "confluence": true,
+        "notion": true,
+        "google_drive": false
+      },
+      "project_management": {
+        "asana": true,
+        "trello": true,
+        "monday": false,
+        "basecamp": false,
+        "wrike": false
+      },
+      "design": {
+        "figma": true,
+        "miro": true,
+        "invision": false
+      },
+      "automation": {
+        "zapier": true,
+        "make": false,
+        "webhooks": true
+      },
+      "prototype": {
+        "v0": false,
+        "bolt": false,
+        "lovable": false
+      },
+      "total_native": 25,
+      "has_api": true
+    },
+    "aha": {
+      "development": {
+        "jira_cloud": "deep",
+        "jira_server": true,
+        "azure_devops": "two_way",
+        "github": true,
+        "gitlab": true,
+        "linear": false,
+        "shortcut": true
+      },
+      "communication": {
+        "slack": true,
+        "ms_teams": true,
+        "email": true
+      },
+      "crm": {
+        "salesforce": true,
+        "hubspot": true,
+        "pipedrive": true,
+        "gong": false
+      },
+      "support": {
+        "intercom": true,
+        "zendesk": true,
+        "freshdesk": true
+      },
+      "analytics": {
+        "amplitude": false,
+        "mixpanel": false,
+        "segment": true,
+        "heap": false,
+        "fullstory": false
+      },
+      "documentation": {
+        "confluence": true,
+        "notion": false,
+        "google_drive": true
+      },
+      "project_management": {
+        "asana": true,
+        "trello": true,
+        "monday": true,
+        "basecamp": true,
+        "wrike": true
+      },
+      "design": {
+        "figma": true,
+        "miro": true,
+        "invision": true
+      },
+      "automation": {
+        "zapier": true,
+        "make": true,
+        "webhooks": true
+      },
+      "prototype": {
+        "v0": false,
+        "bolt": false,
+        "lovable": false
+      },
+      "total_native": 65,
+      "has_api": true
+    },
+    "airfocus": {
+      "development": {
+        "jira_cloud": "two_way",
+        "jira_server": false,
+        "azure_devops": "two_way",
+        "github": true,
+        "gitlab": false,
+        "linear": true,
+        "shortcut": true
+      },
+      "communication": {
+        "slack": true,
+        "ms_teams": true,
+        "email": true
+      },
+      "crm": {
+        "salesforce": true,
+        "hubspot": false,
+        "pipedrive": false,
+        "gong": false
+      },
+      "support": {
+        "intercom": true,
+        "zendesk": true,
+        "freshdesk": false
+      },
+      "analytics": {
+        "amplitude": false,
+        "mixpanel": false,
+        "segment": false,
+        "heap": false,
+        "fullstory": false
+      },
+      "documentation": {
+        "confluence": false,
+        "notion": true,
+        "google_drive": false
+      },
+      "project_management": {
+        "asana": true,
+        "trello": true,
+        "monday": true,
+        "basecamp": true,
+        "wrike": true
+      },
+      "design": {
+        "figma": false,
+        "miro": false,
+        "invision": false
+      },
+      "automation": {
+        "zapier": true,
+        "make": false,
+        "webhooks": true
+      },
+      "prototype": {
+        "v0": false,
+        "bolt": false,
+        "lovable": false
+      },
+      "total_native": 15,
+      "has_api": "scale"
+    },
+    "tempo": {
+      "development": {
+        "jira_cloud": "deep",
+        "jira_server": true,
+        "azure_devops": "two_way",
+        "github": true,
+        "gitlab": true,
+        "linear": false,
+        "shortcut": true
+      },
+      "communication": {
+        "slack": false,
+        "ms_teams": true,
+        "email": false
+      },
+      "crm": {
+        "salesforce": false,
+        "hubspot": false,
+        "pipedrive": false,
+        "gong": false
+      },
+      "support": {
+        "intercom": false,
+        "zendesk": false,
+        "freshdesk": false
+      },
+      "analytics": {
+        "amplitude": false,
+        "mixpanel": false,
+        "segment": false,
+        "heap": false,
+        "fullstory": false
+      },
+      "documentation": {
+        "confluence": true,
+        "notion": false,
+        "google_drive": false
+      },
+      "project_management": {
+        "asana": true,
+        "trello": true,
+        "monday": true,
+        "basecamp": false,
+        "wrike": false
+      },
+      "design": {
+        "figma": false,
+        "miro": false,
+        "invision": false
+      },
+      "automation": {
+        "zapier": true,
+        "make": false,
+        "webhooks": true
+      },
+      "prototype": {
+        "v0": false,
+        "bolt": false,
+        "lovable": false
+      },
+      "total_native": 10,
+      "has_api": "business",
+      "tempo_suite": ["timesheets", "capacity_planner", "structure"]
+    },
+    "chatprd": {
+      "development": {
+        "jira_cloud": false,
+        "jira_server": false,
+        "azure_devops": false,
+        "github": false,
+        "gitlab": false,
+        "linear": "deep",
+        "shortcut": false
+      },
+      "communication": {
+        "slack": true,
+        "ms_teams": false,
+        "email": false
+      },
+      "crm": {
+        "salesforce": false,
+        "hubspot": false,
+        "pipedrive": false,
+        "gong": false
+      },
+      "support": {
+        "intercom": false,
+        "zendesk": false,
+        "freshdesk": false
+      },
+      "analytics": {
+        "amplitude": false,
+        "mixpanel": false,
+        "segment": false,
+        "heap": false,
+        "fullstory": false
+      },
+      "documentation": {
+        "confluence": true,
+        "notion": true,
+        "google_drive": true
+      },
+      "project_management": {
+        "asana": false,
+        "trello": false,
+        "monday": false,
+        "basecamp": false,
+        "wrike": false
+      },
+      "design": {
+        "figma": false,
+        "miro": false,
+        "invision": false
+      },
+      "automation": {
+        "zapier": false,
+        "make": false,
+        "webhooks": false
+      },
+      "prototype": {
+        "v0": true,
+        "bolt": true,
+        "lovable": true
+      },
+      "total_native": 8,
+      "has_api": false,
+      "has_mcp": true
+    }
+  }
+}

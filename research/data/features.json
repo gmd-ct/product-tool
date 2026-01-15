@@ -1,0 +1,332 @@
+{
+  "feature_categories": [
+    {
+      "id": "roadmapping",
+      "name": "Roadmapping",
+      "features": [
+        {"id": "timeline_view", "name": "Timeline View"},
+        {"id": "swimlane_view", "name": "Swimlane View"},
+        {"id": "kanban_view", "name": "Kanban View"},
+        {"id": "table_view", "name": "Table View"},
+        {"id": "gantt_chart", "name": "Gantt Charts"},
+        {"id": "portfolio_rollups", "name": "Portfolio Rollups"},
+        {"id": "dependency_tracking", "name": "Dependency Tracking"},
+        {"id": "multiple_views", "name": "Multiple Views"}
+      ]
+    },
+    {
+      "id": "prioritization",
+      "name": "Prioritization",
+      "features": [
+        {"id": "rice_framework", "name": "RICE Framework"},
+        {"id": "value_effort", "name": "Value vs Effort"},
+        {"id": "custom_scoring", "name": "Custom Scoring"},
+        {"id": "weighted_scoring", "name": "Weighted Scoring"},
+        {"id": "priority_poker", "name": "Priority Poker"},
+        {"id": "team_voting", "name": "Team Voting"}
+      ]
+    },
+    {
+      "id": "feedback",
+      "name": "Feedback Management",
+      "features": [
+        {"id": "feedback_portal", "name": "Feedback Portal"},
+        {"id": "customer_voting", "name": "Customer Voting"},
+        {"id": "revenue_insights", "name": "Revenue Insights"},
+        {"id": "segment_analysis", "name": "Segment Analysis"},
+        {"id": "nps_integration", "name": "NPS/CSAT Integration"}
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI Capabilities",
+      "features": [
+        {"id": "ai_prd_generation", "name": "AI PRD Generation"},
+        {"id": "ai_summaries", "name": "AI Feature Summaries"},
+        {"id": "ai_feedback_analysis", "name": "AI Feedback Analysis"},
+        {"id": "ai_prioritization", "name": "AI Prioritization"},
+        {"id": "ai_coaching", "name": "AI Coaching"},
+        {"id": "native_ai_chat", "name": "Native AI Chat"}
+      ]
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise Features",
+      "features": [
+        {"id": "sso_saml", "name": "SSO/SAML"},
+        {"id": "soc2", "name": "SOC 2"},
+        {"id": "gdpr", "name": "GDPR Compliance"},
+        {"id": "iso27001", "name": "ISO 27001"},
+        {"id": "eu_hosting", "name": "EU Hosting"},
+        {"id": "on_premise", "name": "On-Premise"},
+        {"id": "audit_logs", "name": "Audit Logs"}
+      ]
+    }
+  ],
+  "tool_features": {
+    "productplan": {
+      "roadmapping": {
+        "timeline_view": true,
+        "swimlane_view": true,
+        "kanban_view": true,
+        "table_view": true,
+        "gantt_chart": true,
+        "portfolio_rollups": true,
+        "dependency_tracking": true,
+        "multiple_views": true
+      },
+      "prioritization": {
+        "rice_framework": false,
+        "value_effort": false,
+        "custom_scoring": false,
+        "weighted_scoring": false,
+        "priority_poker": false,
+        "team_voting": false
+      },
+      "feedback": {
+        "feedback_portal": false,
+        "customer_voting": false,
+        "revenue_insights": false,
+        "segment_analysis": false,
+        "nps_integration": false
+      },
+      "ai": {
+        "ai_prd_generation": false,
+        "ai_summaries": false,
+        "ai_feedback_analysis": false,
+        "ai_prioritization": false,
+        "ai_coaching": false,
+        "native_ai_chat": false
+      },
+      "enterprise": {
+        "sso_saml": "enterprise",
+        "soc2": true,
+        "gdpr": true,
+        "iso27001": false,
+        "eu_hosting": false,
+        "on_premise": false,
+        "audit_logs": "enterprise"
+      }
+    },
+    "productboard": {
+      "roadmapping": {
+        "timeline_view": true,
+        "swimlane_view": true,
+        "kanban_view": true,
+        "table_view": true,
+        "gantt_chart": false,
+        "portfolio_rollups": true,
+        "dependency_tracking": true,
+        "multiple_views": true
+      },
+      "prioritization": {
+        "rice_framework": true,
+        "value_effort": true,
+        "custom_scoring": true,
+        "weighted_scoring": true,
+        "priority_poker": false,
+        "team_voting": true
+      },
+      "feedback": {
+        "feedback_portal": true,
+        "customer_voting": true,
+        "revenue_insights": true,
+        "segment_analysis": true,
+        "nps_integration": true
+      },
+      "ai": {
+        "ai_prd_generation": false,
+        "ai_summaries": true,
+        "ai_feedback_analysis": true,
+        "ai_prioritization": true,
+        "ai_coaching": false,
+        "native_ai_chat": false
+      },
+      "enterprise": {
+        "sso_saml": "scale",
+        "soc2": true,
+        "gdpr": true,
+        "iso27001": true,
+        "eu_hosting": true,
+        "on_premise": false,
+        "audit_logs": true
+      }
+    },
+    "aha": {
+      "roadmapping": {
+        "timeline_view": true,
+        "swimlane_view": true,
+        "kanban_view": true,
+        "table_view": true,
+        "gantt_chart": true,
+        "portfolio_rollups": true,
+        "dependency_tracking": true,
+        "multiple_views": true
+      },
+      "prioritization": {
+        "rice_framework": true,
+        "value_effort": true,
+        "custom_scoring": true,
+        "weighted_scoring": true,
+        "priority_poker": false,
+        "team_voting": true
+      },
+      "feedback": {
+        "feedback_portal": true,
+        "customer_voting": true,
+        "revenue_insights": true,
+        "segment_analysis": true,
+        "nps_integration": true
+      },
+      "ai": {
+        "ai_prd_generation": false,
+        "ai_summaries": true,
+        "ai_feedback_analysis": true,
+        "ai_prioritization": true,
+        "ai_coaching": false,
+        "native_ai_chat": false
+      },
+      "enterprise": {
+        "sso_saml": "enterprise",
+        "soc2": true,
+        "gdpr": true,
+        "iso27001": false,
+        "eu_hosting": false,
+        "on_premise": true,
+        "audit_logs": true
+      }
+    },
+    "airfocus": {
+      "roadmapping": {
+        "timeline_view": true,
+        "swimlane_view": true,
+        "kanban_view": true,
+        "table_view": true,
+        "gantt_chart": true,
+        "portfolio_rollups": true,
+        "dependency_tracking": true,
+        "multiple_views": true
+      },
+      "prioritization": {
+        "rice_framework": true,
+        "value_effort": true,
+        "custom_scoring": true,
+        "weighted_scoring": true,
+        "priority_poker": true,
+        "team_voting": true
+      },
+      "feedback": {
+        "feedback_portal": true,
+        "customer_voting": false,
+        "revenue_insights": false,
+        "segment_analysis": false,
+        "nps_integration": false
+      },
+      "ai": {
+        "ai_prd_generation": true,
+        "ai_summaries": true,
+        "ai_feedback_analysis": true,
+        "ai_prioritization": true,
+        "ai_coaching": false,
+        "native_ai_chat": false
+      },
+      "enterprise": {
+        "sso_saml": "enterprise",
+        "soc2": true,
+        "gdpr": true,
+        "iso27001": true,
+        "eu_hosting": true,
+        "on_premise": false,
+        "audit_logs": true
+      }
+    },
+    "tempo": {
+      "roadmapping": {
+        "timeline_view": true,
+        "swimlane_view": true,
+        "kanban_view": true,
+        "table_view": true,
+        "gantt_chart": true,
+        "portfolio_rollups": true,
+        "dependency_tracking": true,
+        "multiple_views": true
+      },
+      "prioritization": {
+        "rice_framework": true,
+        "value_effort": true,
+        "custom_scoring": true,
+        "weighted_scoring": true,
+        "priority_poker": false,
+        "team_voting": false
+      },
+      "feedback": {
+        "feedback_portal": true,
+        "customer_voting": false,
+        "revenue_insights": false,
+        "segment_analysis": false,
+        "nps_integration": false
+      },
+      "ai": {
+        "ai_prd_generation": false,
+        "ai_summaries": false,
+        "ai_feedback_analysis": false,
+        "ai_prioritization": false,
+        "ai_coaching": false,
+        "native_ai_chat": false
+      },
+      "enterprise": {
+        "sso_saml": "professional",
+        "soc2": true,
+        "gdpr": true,
+        "iso27001": true,
+        "eu_hosting": false,
+        "on_premise": false,
+        "audit_logs": true
+      }
+    },
+    "chatprd": {
+      "roadmapping": {
+        "timeline_view": false,
+        "swimlane_view": false,
+        "kanban_view": false,
+        "table_view": false,
+        "gantt_chart": false,
+        "portfolio_rollups": false,
+        "dependency_tracking": false,
+        "multiple_views": false
+      },
+      "prioritization": {
+        "rice_framework": false,
+        "value_effort": false,
+        "custom_scoring": false,
+        "weighted_scoring": false,
+        "priority_poker": false,
+        "team_voting": false
+      },
+      "feedback": {
+        "feedback_portal": false,
+        "customer_voting": false,
+        "revenue_insights": false,
+        "segment_analysis": false,
+        "nps_integration": false
+      },
+      "ai": {
+        "ai_prd_generation": true,
+        "ai_summaries": true,
+        "ai_feedback_analysis": false,
+        "ai_prioritization": false,
+        "ai_coaching": true,
+        "native_ai_chat": true
+      },
+      "enterprise": {
+        "sso_saml": "enterprise",
+        "soc2": true,
+        "gdpr": true,
+        "iso27001": false,
+        "eu_hosting": false,
+        "on_premise": false,
+        "audit_logs": "enterprise"
+      }
+    }
+  }
+}
