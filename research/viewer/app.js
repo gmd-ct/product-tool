@@ -4,9 +4,9 @@ const STRUCTURE = {
   overview: {
     title: 'Overview',
     items: [
-      { name: 'README', path: '/README.md' },
-      { name: 'Methodology', path: '/methodology.md' },
-      { name: 'Replication Guide', path: '/replication-guide.md' }
+      { name: 'README', path: '/research/README.md' },
+      { name: 'Methodology', path: '/research/methodology.md' },
+      { name: 'Replication Guide', path: '/research/replication-guide.md' }
     ]
   },
   tools: {
@@ -15,73 +15,73 @@ const STRUCTURE = {
       productplan: {
         title: 'ProductPlan',
         items: [
-          { name: 'Overview', path: '/tools/productplan/overview.md' },
-          { name: 'Features', path: '/tools/productplan/features.md' },
-          { name: 'Pricing', path: '/tools/productplan/pricing.md' },
-          { name: 'Users', path: '/tools/productplan/users.md' },
-          { name: 'Reviews', path: '/tools/productplan/reviews.md' },
-          { name: 'Integrations', path: '/tools/productplan/integrations.md' },
-          { name: 'Insights', path: '/tools/productplan/insights.md' }
+          { name: 'Overview', path: '/research/tools/productplan/overview.md' },
+          { name: 'Features', path: '/research/tools/productplan/features.md' },
+          { name: 'Pricing', path: '/research/tools/productplan/pricing.md' },
+          { name: 'Users', path: '/research/tools/productplan/users.md' },
+          { name: 'Reviews', path: '/research/tools/productplan/reviews.md' },
+          { name: 'Integrations', path: '/research/tools/productplan/integrations.md' },
+          { name: 'Insights', path: '/research/tools/productplan/insights.md' }
         ]
       },
       productboard: {
         title: 'Productboard',
         items: [
-          { name: 'Overview', path: '/tools/productboard/overview.md' },
-          { name: 'Features', path: '/tools/productboard/features.md' },
-          { name: 'Pricing', path: '/tools/productboard/pricing.md' },
-          { name: 'Users', path: '/tools/productboard/users.md' },
-          { name: 'Reviews', path: '/tools/productboard/reviews.md' },
-          { name: 'Integrations', path: '/tools/productboard/integrations.md' },
-          { name: 'Insights', path: '/tools/productboard/insights.md' }
+          { name: 'Overview', path: '/research/tools/productboard/overview.md' },
+          { name: 'Features', path: '/research/tools/productboard/features.md' },
+          { name: 'Pricing', path: '/research/tools/productboard/pricing.md' },
+          { name: 'Users', path: '/research/tools/productboard/users.md' },
+          { name: 'Reviews', path: '/research/tools/productboard/reviews.md' },
+          { name: 'Integrations', path: '/research/tools/productboard/integrations.md' },
+          { name: 'Insights', path: '/research/tools/productboard/insights.md' }
         ]
       },
       aha: {
         title: 'Aha!',
         items: [
-          { name: 'Overview', path: '/tools/aha/overview.md' },
-          { name: 'Features', path: '/tools/aha/features.md' },
-          { name: 'Pricing', path: '/tools/aha/pricing.md' },
-          { name: 'Users', path: '/tools/aha/users.md' },
-          { name: 'Reviews', path: '/tools/aha/reviews.md' },
-          { name: 'Integrations', path: '/tools/aha/integrations.md' },
-          { name: 'Insights', path: '/tools/aha/insights.md' }
+          { name: 'Overview', path: '/research/tools/aha/overview.md' },
+          { name: 'Features', path: '/research/tools/aha/features.md' },
+          { name: 'Pricing', path: '/research/tools/aha/pricing.md' },
+          { name: 'Users', path: '/research/tools/aha/users.md' },
+          { name: 'Reviews', path: '/research/tools/aha/reviews.md' },
+          { name: 'Integrations', path: '/research/tools/aha/integrations.md' },
+          { name: 'Insights', path: '/research/tools/aha/insights.md' }
         ]
       },
       airfocus: {
         title: 'Airfocus',
         items: [
-          { name: 'Overview', path: '/tools/airfocus/overview.md' },
-          { name: 'Features', path: '/tools/airfocus/features.md' },
-          { name: 'Pricing', path: '/tools/airfocus/pricing.md' },
-          { name: 'Users', path: '/tools/airfocus/users.md' },
-          { name: 'Reviews', path: '/tools/airfocus/reviews.md' },
-          { name: 'Integrations', path: '/tools/airfocus/integrations.md' },
-          { name: 'Insights', path: '/tools/airfocus/insights.md' }
+          { name: 'Overview', path: '/research/tools/airfocus/overview.md' },
+          { name: 'Features', path: '/research/tools/airfocus/features.md' },
+          { name: 'Pricing', path: '/research/tools/airfocus/pricing.md' },
+          { name: 'Users', path: '/research/tools/airfocus/users.md' },
+          { name: 'Reviews', path: '/research/tools/airfocus/reviews.md' },
+          { name: 'Integrations', path: '/research/tools/airfocus/integrations.md' },
+          { name: 'Insights', path: '/research/tools/airfocus/insights.md' }
         ]
       },
       tempo: {
         title: 'Tempo',
         items: [
-          { name: 'Overview', path: '/tools/tempo/overview.md' },
-          { name: 'Features', path: '/tools/tempo/features.md' },
-          { name: 'Pricing', path: '/tools/tempo/pricing.md' },
-          { name: 'Users', path: '/tools/tempo/users.md' },
-          { name: 'Reviews', path: '/tools/tempo/reviews.md' },
-          { name: 'Integrations', path: '/tools/tempo/integrations.md' },
-          { name: 'Insights', path: '/tools/tempo/insights.md' }
+          { name: 'Overview', path: '/research/tools/tempo/overview.md' },
+          { name: 'Features', path: '/research/tools/tempo/features.md' },
+          { name: 'Pricing', path: '/research/tools/tempo/pricing.md' },
+          { name: 'Users', path: '/research/tools/tempo/users.md' },
+          { name: 'Reviews', path: '/research/tools/tempo/reviews.md' },
+          { name: 'Integrations', path: '/research/tools/tempo/integrations.md' },
+          { name: 'Insights', path: '/research/tools/tempo/insights.md' }
         ]
       },
       chatprd: {
         title: 'ChatPRD',
         items: [
-          { name: 'Overview', path: '/tools/chatprd/overview.md' },
-          { name: 'Features', path: '/tools/chatprd/features.md' },
-          { name: 'Pricing', path: '/tools/chatprd/pricing.md' },
-          { name: 'Users', path: '/tools/chatprd/users.md' },
-          { name: 'Reviews', path: '/tools/chatprd/reviews.md' },
-          { name: 'Integrations', path: '/tools/chatprd/integrations.md' },
-          { name: 'Insights', path: '/tools/chatprd/insights.md' }
+          { name: 'Overview', path: '/research/tools/chatprd/overview.md' },
+          { name: 'Features', path: '/research/tools/chatprd/features.md' },
+          { name: 'Pricing', path: '/research/tools/chatprd/pricing.md' },
+          { name: 'Users', path: '/research/tools/chatprd/users.md' },
+          { name: 'Reviews', path: '/research/tools/chatprd/reviews.md' },
+          { name: 'Integrations', path: '/research/tools/chatprd/integrations.md' },
+          { name: 'Insights', path: '/research/tools/chatprd/insights.md' }
         ]
       }
     }
@@ -89,44 +89,44 @@ const STRUCTURE = {
   comparisons: {
     title: 'Comparisons',
     items: [
-      { name: 'Feature Matrix', path: '/comparisons/feature-matrix.md' },
-      { name: 'Pricing Comparison', path: '/comparisons/pricing-comparison.md' },
-      { name: 'Integration Matrix', path: '/comparisons/integration-matrix.md' },
-      { name: 'Persona Fit', path: '/comparisons/persona-fit.md' },
-      { name: 'Strengths & Weaknesses', path: '/comparisons/strengths-weaknesses.md' }
+      { name: 'Feature Matrix', path: '/research/comparisons/feature-matrix.md' },
+      { name: 'Pricing Comparison', path: '/research/comparisons/pricing-comparison.md' },
+      { name: 'Integration Matrix', path: '/research/comparisons/integration-matrix.md' },
+      { name: 'Persona Fit', path: '/research/comparisons/persona-fit.md' },
+      { name: 'Strengths & Weaknesses', path: '/research/comparisons/strengths-weaknesses.md' }
     ]
   },
   analysis: {
     title: 'Analysis',
     items: [
-      { name: 'Market Landscape', path: '/analysis/market-landscape.md' },
-      { name: 'Feature Gaps', path: '/analysis/feature-gaps.md' },
-      { name: 'User Pain Points', path: '/analysis/user-pain-points.md' },
-      { name: 'Emerging Patterns', path: '/analysis/emerging-patterns.md' },
-      { name: 'Opportunities', path: '/analysis/opportunities.md' }
+      { name: 'Market Landscape', path: '/research/analysis/market-landscape.md' },
+      { name: 'Feature Gaps', path: '/research/analysis/feature-gaps.md' },
+      { name: 'User Pain Points', path: '/research/analysis/user-pain-points.md' },
+      { name: 'Emerging Patterns', path: '/research/analysis/emerging-patterns.md' },
+      { name: 'Opportunities', path: '/research/analysis/opportunities.md' }
     ]
   },
   data: {
     title: 'Data (JSON)',
     items: [
-      { name: 'Tools Data', path: '/data/tools.json', isJson: true },
-      { name: 'Features Data', path: '/data/features.json', isJson: true },
-      { name: 'Pricing Data', path: '/data/pricing.json', isJson: true },
-      { name: 'Integrations Data', path: '/data/integrations.json', isJson: true }
+      { name: 'Tools Data', path: '/research/data/tools.json', isJson: true },
+      { name: 'Features Data', path: '/research/data/features.json', isJson: true },
+      { name: 'Pricing Data', path: '/research/data/pricing.json', isJson: true },
+      { name: 'Integrations Data', path: '/research/data/integrations.json', isJson: true }
     ]
   },
   specs: {
     title: 'Product Specs',
     items: [
-      { name: 'Overview', path: '../../specs/00-overview.md' },
-      { name: 'Roadmapping', path: '../../specs/01-roadmapping.md' },
-      { name: 'Prioritization', path: '../../specs/02-prioritization.md' },
-      { name: 'Feedback Management', path: '../../specs/03-feedback-management.md' },
-      { name: 'AI Features', path: '../../specs/04-ai-features.md' },
-      { name: 'OKRs & Strategy', path: '../../specs/05-okrs-strategy.md' },
-      { name: 'Collaboration', path: '../../specs/06-collaboration.md' },
-      { name: 'Integrations', path: '../../specs/07-integrations.md' },
-      { name: 'Enterprise & Security', path: '../../specs/08-enterprise-security.md' }
+      { name: 'Overview', path: '/specs/00-overview.md' },
+      { name: 'Roadmapping', path: '/specs/01-roadmapping.md' },
+      { name: 'Prioritization', path: '/specs/02-prioritization.md' },
+      { name: 'Feedback Management', path: '/specs/03-feedback-management.md' },
+      { name: 'AI Features', path: '/specs/04-ai-features.md' },
+      { name: 'OKRs & Strategy', path: '/specs/05-okrs-strategy.md' },
+      { name: 'Collaboration', path: '/specs/06-collaboration.md' },
+      { name: 'Integrations', path: '/specs/07-integrations.md' },
+      { name: 'Enterprise & Security', path: '/specs/08-enterprise-security.md' }
     ]
   }
 };
@@ -146,7 +146,7 @@ class ResearchViewer {
   init() {
     this.buildNavigation();
     this.setupEventListeners();
-    this.loadFromHash() || this.loadContent('/README.md', 'README');
+    this.loadFromHash() || this.loadContent('/research/README.md', 'README');
   }
 
   buildNavigation() {
